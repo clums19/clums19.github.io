@@ -598,11 +598,6 @@ progress {
 }
 
 .img-fluid {
-  max-width: 850px;
-  max-height: 610px;
-  height: auto;
-}
-.img-icon {
   max-width: 100%;
   height: auto;
 }
@@ -614,6 +609,12 @@ progress {
   border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
+}
+.img-icon {
+  margin: 15px;
+  /* padding-right: 50px; */
+  display: flex;
+  justify-content: center;
 }
 
 .figure {
@@ -11553,12 +11554,12 @@ footer.footer .social-link:hover {
 }
 
 .service-icon {
-  /* background-color: #fff;
-  color: #1D809F; */
-  height: 10rem;
-  width: 15rem;
+  /* background-color: #fff; */
+  /* color: #1D809F; */
+  height: 7rem;
+  width: 7rem;
   display: block;
-  /* line-height: 7.5rem; */
-  font-size: 5rem;
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  line-height: 7.5rem;
+  /* font-size: 2.25rem; */
+  /* box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
 }
